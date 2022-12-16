@@ -1,0 +1,16 @@
+name: TestPlugin
+version: '0.1'
+main: com.loh1na.TestPlugin
+api-version: 1.19
+commands:
+  bomb:
+    description: Казахстан угрожает вам бомбордировкой!!!
+    aliases: bomb
+    usage: /bomb
+    permission: Testplugin.bomb
+  zeus:
+    description: халявная ульта зевса
+    aliases: zeus
+    usage: /zeus
+    permission: Testplugin.zeus
+
